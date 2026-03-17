@@ -10,15 +10,15 @@ body{
     margin:auto;
     position:relative;
     overflow:hidden;
+    background:#f7f7f7;
 }
 
-#dino{
-    width:50px;
-    height:50px;
-    background:green;
+#papa{
+    width:65px;
     position:absolute;
     bottom:0;
-    left:50px;
+    left:55px;
+    display:block;
 }
 
 #cactus{
@@ -28,12 +28,6 @@ body{
     position:absolute;
     bottom:0;
     left:800px;
-    animation:cactusMove 2s infinite linear;
-}
-
-@keyframes cactusMove{
-    from{ left:800px; }
-    to{ left:-30px; }
 }
 
 .jump{
